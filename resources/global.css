@@ -82,7 +82,7 @@ a {
 }
 
 /*-- News --*/
-.news, .exhibit-section {
+.section {
   display: flex;
 }
 
@@ -114,7 +114,6 @@ a {
 
 .box {
   display: flex;
-  width: 65%;
 }
 
 .news .box:nth-child(1) {
@@ -136,12 +135,35 @@ a {
   width: 100%;
 }
 
-.news .img-container.guest, .exhibit .img-container.ny {
-  width: 66%;
-}
+
 
 .news .content, .exhibit .content {
   margin: auto;
+  width: 65%;
+}
+
+.info-box .content {
+  background-color: white;
+  margin-top: -3px;
+  padding: 16px 16px 24px 16px;
+  height: 80px;
+}
+
+.title {
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.info-box .content h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.info-box .content h4 {
+  text-transform: uppercase;
+  padding: 8px 0;
 }
 
 /*-- Info --*/
@@ -158,7 +180,6 @@ a {
 .info-box {
   width: 31%;
   padding: 16px;
-
 }
 
 .info img {
@@ -166,9 +187,19 @@ a {
   height: auto;
 }
 
-/*-- Exhibit --*/
-.exhibit {
+/*-- Thesis Exhibit --*/
+.exhibit-section {
+  padding-top: 32px;
 }
+
+.exhibit-section .box:nth-child(1){
+  background-color: gray;
+}
+
+.exhibit-section .box:nth-child(1) .img-container{
+  width: 47%;
+}
+
 
 /*-- footer --*/
 .footer {
