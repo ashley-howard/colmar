@@ -6,6 +6,10 @@ body {
   font-family: 'Tajawal', sans-serif;
 }
 
+.mobile-header {
+  display: none;
+}
+
 .header {
   display: flex;
   height: 64px;
@@ -147,6 +151,10 @@ body {
   border-bottom-left-radius: 20px;
 }
 
+.img-mobile {
+  display: none;
+}
+
 .more {
   width: 40%;
 }
@@ -206,7 +214,7 @@ body {
 /*-- Info --*/
 
 .info-box .content h3 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
 }
@@ -214,12 +222,12 @@ body {
 .info-box .content h4 {
   text-transform: uppercase;
   padding: 8px 0;
-  font-size: 13px;
+  font-size: 15px;
   text-align: center;
 }
 
 .info .content p {
-  font-size: 13px;
+  font-size: 17px;
   text-align: center;
 }
 
