@@ -1,0 +1,7 @@
+/* Laptop */
+
+@media only screen and (max-width: 1600px) {
+  .info-box {
+    width: 30%;
+}
+}

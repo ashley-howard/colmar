@@ -1,0 +1,33 @@
+/* Tablet */
+
+@media only screen and (max-width: 768px) {
+  .info-box {
+    width: 31%;
+}
+
+  .start {
+    width: 70%;
+  }
+
+  .info{
+    padding: 32px 20px;
+  }
+
+  .info-box{
+    padding: 10px 0;
+  }
+
+  .info-box .content h3 {
+    font-size: 17px;
+  }
+
+  .info-box .content h4 {
+    font-size: 10px;
+  }
+
+  .info-box .content p {
+    font-size: 11px;
+  }
+
+
+}
