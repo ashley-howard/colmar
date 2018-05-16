@@ -27,6 +27,7 @@ body {
 
 .header .logo strong {
   font-weight: bold;
+  color: #000000b3;
 }
 
 .header .logo span {
@@ -35,6 +36,7 @@ body {
   font-size: 20px;
   letter-spacing: 1px;
   vertical-align: middle;
+  color: #9b9b9b;
 }
 
 .header .links {
@@ -54,7 +56,7 @@ body {
 .banner {
   display: flex;
   padding: 96px 0 32px 25px;
-  background-color: #cdcdcd;
+  background-color: #5f828fb3;
 }
 
 .banner .img {
@@ -75,20 +77,18 @@ body {
 .banner h1 {
   font-family: 'Patrick Hand SC', cursive;
   font-size: 2.5em;
-  color: #4b4b4b;
+  color: #fffffff7; /* old #4b4b4b; */
 }
 
 .banner h1 strong {
-  font-weight: bold;
-  color: #d54141;
-  text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+  color: #ecf3ff8c; /* old #b7d0e6;*/
 }
 
 .banner h3 {
   font-family: 'Tajawal', sans-serif;
   padding: 30px 0;
   font-size: 16px;
-  color: #5a5353;
+  color: #fffffff7;
 }
 
 .start {
@@ -102,6 +102,7 @@ body {
   width: 40%;
   border-radius: 32px;
   font-size: 20px;
+  transition: 0.1s ease-in-out 0.1s;
 }
 
 .start:hover {
@@ -141,7 +142,7 @@ body {
 }
 
 .news .more {
-  border-left: 1px solid black;
+  border-left: 1px solid #cdcdcd;
 }
 
 .box {
@@ -149,7 +150,7 @@ body {
 }
 
 .news .box:nth-child(1) {
-  border-bottom: 3px double black;
+  border-bottom: 3px double #cdcdcd;
   padding-top: 15px;
 }
 
@@ -206,7 +207,7 @@ body {
 
 .info {
   padding: 32px 56px;
-  background-color: gray;
+  background-color: #808080ad;
 }
 
 .info h2 {
@@ -216,6 +217,7 @@ body {
 .info-section {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .info-box {
@@ -260,7 +262,8 @@ body {
 }
 
 .exhibit-section .box:nth-child(1){
-  background-color: gray;
+  background-color: #808080ad;
+  border-top-right-radius: 20px;
 }
 
 .box h3 {
