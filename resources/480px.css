@@ -1,35 +1,46 @@
 @media only screen and (max-width: 550px) {
-  .header {
+
+  .header, .news .main, .img-web, .info-box .img-container, .info-box .content h4, .info-box .content p, .exhibit .more, .exhibit .main .content, .web-video {
     display: none;
   }
 
-  .mobile-header {
+  .img-mobile, .mobile-video, .mobile-header {
     display: block;
+  }
+
+  .banner .desc, .news .img-container, .info-box, .exhibit .main, .more, .mobile-header {
+    width: 100%;
+  }
+
+  .box, .banner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+
+  .mobile-header {
     height: 64px;
     position: fixed;
     z-index: 99;
     background-color: white;
-    width: 100%;
     opacity: 0.97;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=97)";
   }
 
   .icons{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     height: 100%;
   }
 
   .banner {
-    flex-wrap: wrap;
     padding: 75px 10px 32px 10px;
   }
 
   .banner .img {
     width: 97.5%;
-  }
-
-  .banner .desc {
-    width: 100%;
   }
 
   .banner h1 {
@@ -40,33 +51,12 @@
     width: 50%;
   }
 
-  .news .main {
-    display: none;
-  }
-
   .more {
     margin-right: 0px;
-    width: 100%;
   }
 
   .news .box:nth-child(1) {
     padding-top: 0px;
-}
-
-  .news .img-container {
-  width: 100%;
-}
-
-  .box {
-    flex-wrap: wrap;
-  }
-
-  .img-web {
-    display: none;
-  }
-
-  .img-mobile {
-    display: block;
   }
 
   .news .more .content {
@@ -84,26 +74,18 @@
 
   .news .box:nth-child(3) {
     background-color: inherit;
-}
+  }
 
   div.info {
     background-color: #4d80b4b3;
   }
 
-  .info-box {
-    width: 100%;
-}
+  .info h2 {
+    color: #fffffff7;
+  }
 
   .info-box .content {
     height: 10px;
-  }
-
-  .info-box .img-container, .info-box .content h4, .info-box .content p, .exhibit .more, .exhibit .main .content {
-    display: none;
-  }
-
-  .exhibit .main {
-    width: 100%;
   }
 
   .exhibit.section {
@@ -116,14 +98,6 @@
 
   .footer {
     font-size: 13px;
-  }
-
-  .web-video {
-    display: none;
-  }
-
-  .mobile-video {
-    display: block;
   }
 
 }
