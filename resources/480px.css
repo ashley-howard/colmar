@@ -22,7 +22,6 @@
   .banner {
     flex-wrap: wrap;
     padding: 75px 10px 32px 10px;
-    background-color: #2c5e91b3;
   }
 
   .banner .img {
@@ -88,7 +87,7 @@
 }
 
   div.info {
-    background-color: #2c5e91b3;
+    background-color: #4d80b4b3;
   }
 
   .info-box {
@@ -117,6 +116,14 @@
 
   .footer {
     font-size: 13px;
+  }
+
+  .web-video {
+    display: none;
+  }
+
+  .mobile-video {
+    display: block;
   }
 
 }

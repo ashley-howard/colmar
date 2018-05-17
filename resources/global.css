@@ -70,7 +70,7 @@ body {
 .banner {
   display: flex;
   padding: 96px 0 32px 25px;
-  background-color: #5f828fb3;
+  background-color: #4d80b4b3;
 }
 
 .banner .img {
@@ -304,6 +304,10 @@ body {
 
 .box a {
   color: #6694fa;
+}
+
+.mobile-video {
+  display: none;
 }
 
 /*-- footer --*/
